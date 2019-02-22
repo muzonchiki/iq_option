@@ -1,0 +1,53 @@
+.container-top {
+    min-height: 674px;
+}
+
+.section-top {
+    vertical-align: top;
+    padding-left: 8.75%;
+    padding-right: 8.75%;
+    padding-top: 105px;
+}
+
+.img-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../../img/top/top-img.png') center center no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 505px;
+}
+
+.section-top__logo {
+    background: url('../../img/top/logo-iq_black.png') center center no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 64px;
+    margin-bottom: 95px;
+}
+
+.section-top__text-center {
+    width: 63.628%;
+    line-height: 80px;
+    margin-bottom: 70px;
+}
+
+.section-top__text-bottom {
+    font-size: 36px;
+    color: $black-text;
+    margin-bottom: 64px;
+    font-weight: 400;
+}
+
+.section-top__text-center--red {
+    color: $red-text;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.section-top__text-center--blue {
+    color: $blue-text;
+    font-size: 58px;
+    font-weight: 600;
+}

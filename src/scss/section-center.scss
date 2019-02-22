@@ -1,0 +1,101 @@
+.container-center {
+    height: 1360px;
+}
+
+.section-center {
+    vertical-align: top;
+    padding-left: 5.25%;
+    padding-right: 5.25%;
+}
+.section-center__wrap {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 7.328%;
+    padding-right: 7.328%;
+    padding-top: 75px;
+    padding-bottom: 95px;
+}
+
+.section-center__top-title {
+    font-size: 44px;
+    color: $blue-text;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.section-center__top-line {
+    width: 12.85%;
+    border-top: 5px solid $blue-text;
+    margin-bottom: 35px;
+}
+
+.section-center__top-text {
+    font-size: 32px;
+    font-weight: 400;
+    color: $black-text;
+    margin-bottom: 75px;
+}
+
+.section-center__img {
+    background: url('../../img/center/section-center__img.png') center center no-repeat;
+    background-size: cover;
+    width: 762px;
+    height: 427px;
+    margin: 0 auto;
+}
+
+.section-center__block-you-can {
+    margin-top: 70px;
+}
+
+.block-you-can__title {
+    font-size: 44px;
+    font-weight: 500;
+    color: $blue-text;
+    margin: 0 auto;
+    width: 190px;
+}
+
+.block-you-can__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.block-you-can__item {
+    width: 30.93%;
+}
+
+.item__icon {
+    width: 55px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.item__icon--left {
+    background: url('../../img/center/leftIcon.png') center center no-repeat;
+    background-size: cover;
+}
+
+.item__icon--center {
+    background: url('../../img/center/centerIcon.png') center center no-repeat;
+    background-size: cover;
+}
+
+.item__icon--right {
+    background: url('../../img/center/rightIcon.png') center center no-repeat;
+    background-size: cover;
+    height: 74px;
+}
+
+.item__text {
+    font-size: 28px;
+    font-weight: 400;
+    color: $black-text;
+    margin-top: 35px;
+    padding-left: 15px;
+}
+
+.item__text--mrg {
+    margin-top: 21px;
+}
